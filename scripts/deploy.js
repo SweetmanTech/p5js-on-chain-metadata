@@ -2,7 +2,7 @@ const hre = require("hardhat");
 
 async function main() {
   await hre.run("compile");
-  const cxy = await hre.ethers.getContractFactory("cxy");
+  const cxy = await hre.ethers.getContractFactory("CXY");
   const contract = await cxy.deploy();
 
   await contract.deployed();
