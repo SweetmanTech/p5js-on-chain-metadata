@@ -1,6 +1,6 @@
 # Deployed and Verified
 
-- Goerli Testnet - [0x5C3Bfe7853c212aa0BCA14933554AD2BF74885C9](https://goerli.etherscan.io/address/0x5C3Bfe7853c212aa0BCA14933554AD2BF74885C9#code)
+- Mumbai Testnet - [0x52e6b7b4f8784512beb0e0a4b1e2214bfc94e0d8](https://mumbai.polygonscan.com/address/0x52e6b7b4f8784512beb0e0a4b1e2214bfc94e0d8#code)
 
 ## Verifying
 
