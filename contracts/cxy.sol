@@ -4,8 +4,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "./ERC721OnChainMetadata.sol";
 
 contract CXY is ERC721OnChainMetadata {
-    // CXY: 0x7b753919B953b1021A33F55671716Dc13c1eAe08;
-    address cxy = 0xcfBf34d385EA2d5Eb947063b67eA226dcDA3DC38;
+    address cxy = 0x7b753919B953b1021A33F55671716Dc13c1eAe08;
 
     constructor()
         ERC721OnChainMetadata("Meet the Mint Songs Team (MP4)", "CXY")
