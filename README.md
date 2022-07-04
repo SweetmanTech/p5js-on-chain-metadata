@@ -1,4 +1,13 @@
-# cxy.eth - token-gated smart contracts
+# Solidity Gated Mint
+
+- only allow specified addresses to mint a 1:1 nft.
+
+# Deployed and Verified
+
+- Polygon Mainnet - TBD
+- Mumbai Testnet - [0x52e6b7b4f8784512beb0e0a4b1e2214bfc94e0d8](https://mumbai.polygonscan.com/address/0x52e6b7b4f8784512beb0e0a4b1e2214bfc94e0d8#code)
+
+# Background - cxy.eth
 
 This project was specifically designed with my first Ethereum collector, cxy.eth, in mind.
 
@@ -18,12 +27,11 @@ Original Mint Songs V2 purchase by cxy.eth found here:
 - Zora: https://zora.co/collections/0x2B5426A5B98a3E366230ebA9f95a24f09Ae4a584/93
 - OpenSea: https://opensea.io/assets/ethereum/0x2b5426a5b98a3e366230eba9f95a24f09ae4a584/93
 
-# Deployed and Verified
+# How to Deploy & Verify
 
-- Polygon Mainnet - TBD
-- Mumbai Testnet - [0x52e6b7b4f8784512beb0e0a4b1e2214bfc94e0d8](https://mumbai.polygonscan.com/address/0x52e6b7b4f8784512beb0e0a4b1e2214bfc94e0d8#code)
-
-## Verifying
-
-- set your keys from `hardhat.config.js` in `.env`.
-- `npx hardhat verify {your_contract_address} --network polygonMumbai {constructor_arguments}`
+1. `git clone git@github.com:SweetmanTech/token-gated-smart-contracts.git`
+2. `cd token-gated-smart-contracts`
+3. `npm i`
+4. `npx hardhat run scripts/deploy.js --network polygonMumbai`
+5. set your keys from `hardhat.config.js` in `.env`.
+6. `npx hardhat verify {your_contract_address} --network polygonMumbai`
