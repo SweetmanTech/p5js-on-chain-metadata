@@ -4,8 +4,8 @@
 
 # Deployed and Verified
 
-- Polygon Mainnet - TBD
-- Mumbai Testnet - [0x52e6b7b4f8784512beb0e0a4b1e2214bfc94e0d8](https://mumbai.polygonscan.com/address/0x52e6b7b4f8784512beb0e0a4b1e2214bfc94e0d8#code)
+- Polygon Mainnet - [0x21957557C2f87731bDCA472Fd43519aC3281D052](https://polygonscan.com/address/0x21957557C2f87731bDCA472Fd43519aC3281D052#code)
+- Mumbai Testnet - [0x34Dd6Cd8515d1135604dF02cD6AAa3F4081744c7](https://mumbai.polygonscan.com/address/0x34Dd6Cd8515d1135604dF02cD6AAa3F4081744c7#code)
 
 # Background - cxy.eth
 
